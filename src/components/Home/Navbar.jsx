@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
-        <nav className="flex justify-between items-center bg-[#d22871] text-gray-100 p-3">
+        <nav className="flex flex-col md:flex-row justify-between items-center bg-[#d22871] text-gray-100 p-3">
             <h1 className="text-2xl">Akassa School of Technology</h1>
             <ul className="flex gap-5">
                 <li>
