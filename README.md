@@ -1,13 +1,27 @@
-# React + Vite
+# Orbus - Mini Application React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Orbus est une plateforme d’apprentissage hybride qui propose un catalogue de formations.  
+Cette mini-application React affiche une liste de formations et un formulaire d’inscription simple.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Prérequis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# test-tech
+-   Node.js (version 16 ou supérieure recommandée)
+-   npm ou yarn installé
+
+---
+
+## Installation
+
+Clonez le dépôt et installez les dépendances :
+
+```bash
+git clone <URL_DU_DEPOT>
+cd orbus-mini-app
+npm install
+# ou avec yarn
+# yarn install
+```
